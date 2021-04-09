@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct ElSierdApp: App {
+    @StateObject private var appState = AppState.shared
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            appState.route.makeView()
         }
     }
 }
