@@ -21,6 +21,8 @@
 		88FC9D32262045D500286FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FC9D31262045D500286FEC /* Assets.xcassets */; };
 		88FC9D35262045D500286FEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FC9D34262045D500286FEC /* Preview Assets.xcassets */; };
 		88FC9D422620463400286FEC /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC9D412620463400286FEC /* AppState.swift */; };
+		E08C0C462660E4F2001B3D2E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08C0C452660E4F2001B3D2E /* HomeView.swift */; };
+		E0B2076C2660F5D100F3C3AE /* AudiofileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B2076B2660F5D100F3C3AE /* AudiofileRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		88FC9D34262045D500286FEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		88FC9D36262045D500286FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88FC9D412620463400286FEC /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		E08C0C452660E4F2001B3D2E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E0B2076B2660F5D100F3C3AE /* AudiofileRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiofileRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 		88FC9D3D262045E100286FEC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E08C0C452660E4F2001B3D2E /* HomeView.swift */,
+				E0B2076B2660F5D100F3C3AE /* AudiofileRow.swift */,
 				88FC9D2F262045D300286FEC /* ContentView.swift */,
 				8812BFF12660DC8B004C261E /* SoundboardView.swift */,
 				8812BFF32660DC95004C261E /* AddSoundboardView.swift */,
@@ -229,6 +235,8 @@
 				88FC9D30262045D300286FEC /* ContentView.swift in Sources */,
 				88FC9D2E262045D300286FEC /* ElSierdApp.swift in Sources */,
 				8812BFF22660DC8B004C261E /* SoundboardView.swift in Sources */,
+				E0B2076C2660F5D100F3C3AE /* AudiofileRow.swift in Sources */,
+				E08C0C462660E4F2001B3D2E /* HomeView.swift in Sources */,
 				885EC09F263C046800585A09 /* StorageManager.swift in Sources */,
 				885EC0A3263C1E4D00585A09 /* AudioPicker.swift in Sources */,
 			);
@@ -360,7 +368,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ElSierd/Preview Content\"";
-				DEVELOPMENT_TEAM = 8BUR3H37HV;
+				DEVELOPMENT_TEAM = UXHJ45UQL7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ElSierd/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -382,7 +390,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ElSierd/Preview Content\"";
-				DEVELOPMENT_TEAM = 8BUR3H37HV;
+				DEVELOPMENT_TEAM = UXHJ45UQL7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ElSierd/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
