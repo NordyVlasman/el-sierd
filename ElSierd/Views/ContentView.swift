@@ -15,9 +15,9 @@ struct ContentView: View {
     
     var body: some View {
         TabView(selection: $currentSelect){
-            SoundboardView()
+            HomeView()
                 .tabItem {
-                    Text("Soundboard")
+                    Text("Home")
                 }.tag(0)
             AddSoundboardView()
                 .tabItem {
