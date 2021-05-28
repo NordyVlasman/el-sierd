@@ -3,16 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		8812BFF22660DC8B004C261E /* SoundboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812BFF12660DC8B004C261E /* SoundboardView.swift */; };
 		8812BFF42660DC95004C261E /* AddSoundboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812BFF32660DC95004C261E /* AddSoundboardView.swift */; };
 		8812BFF72660E535004C261E /* ElSierdModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8812BFF52660E535004C261E /* ElSierdModel.xcdatamodeld */; };
-		885EC097263C03F900585A09 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 885EC096263C03F900585A09 /* FirebaseStorage */; };
-		885EC099263C03F900585A09 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 885EC098263C03F900585A09 /* FirebaseFirestore */; };
-		885EC09F263C046800585A09 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885EC09E263C046800585A09 /* StorageManager.swift */; };
 		885EC0A3263C1E4D00585A09 /* AudioPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885EC0A2263C1E4D00585A09 /* AudioPicker.swift */; };
 		887D7DE82660F5A100C87F0D /* PersistanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887D7DE72660F5A100C87F0D /* PersistanceController.swift */; };
 		888C3AB4263C2F3A0034FA71 /* 20190113_5c3bafc9aec369039cdd1523.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 88AEF07B263C23C30041A8D8 /* 20190113_5c3bafc9aec369039cdd1523.m4a */; };
@@ -29,7 +26,6 @@
 		8812BFF12660DC8B004C261E /* SoundboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardView.swift; sourceTree = "<group>"; };
 		8812BFF32660DC95004C261E /* AddSoundboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSoundboardView.swift; sourceTree = "<group>"; };
 		8812BFF62660E535004C261E /* ElSierdModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ElSierdModel.xcdatamodel; sourceTree = "<group>"; };
-		885EC09E263C046800585A09 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		885EC0A2263C1E4D00585A09 /* AudioPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPicker.swift; sourceTree = "<group>"; };
 		887D7DE72660F5A100C87F0D /* PersistanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceController.swift; sourceTree = "<group>"; };
 		88AEF07B263C23C30041A8D8 /* 20190113_5c3bafc9aec369039cdd1523.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20190113_5c3bafc9aec369039cdd1523.m4a; sourceTree = "<group>"; };
@@ -49,8 +45,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				885EC097263C03F900585A09 /* FirebaseStorage in Frameworks */,
-				885EC099263C03F900585A09 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +54,6 @@
 		885EC09B263C045800585A09 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				885EC09E263C046800585A09 /* StorageManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -168,8 +161,6 @@
 			);
 			name = ElSierd;
 			packageProductDependencies = (
-				885EC096263C03F900585A09 /* FirebaseStorage */,
-				885EC098263C03F900585A09 /* FirebaseFirestore */,
 			);
 			productName = ElSierd;
 			productReference = 88FC9D2A262045D300286FEC /* ElSierd.app */;
@@ -199,7 +190,6 @@
 			);
 			mainGroup = 88FC9D21262045D300286FEC;
 			packageReferences = (
-				885EC095263C03F900585A09 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 88FC9D2B262045D300286FEC /* Products */;
 			projectDirPath = "";
@@ -237,7 +227,6 @@
 				8812BFF22660DC8B004C261E /* SoundboardView.swift in Sources */,
 				E0B2076C2660F5D100F3C3AE /* AudiofileRow.swift in Sources */,
 				E08C0C462660E4F2001B3D2E /* HomeView.swift in Sources */,
-				885EC09F263C046800585A09 /* StorageManager.swift in Sources */,
 				885EC0A3263C1E4D00585A09 /* AudioPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,7 +357,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ElSierd/Preview Content\"";
-				DEVELOPMENT_TEAM = UXHJ45UQL7;
+				DEVELOPMENT_TEAM = 8BUR3H37HV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ElSierd/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -390,7 +379,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ElSierd/Preview Content\"";
-				DEVELOPMENT_TEAM = UXHJ45UQL7;
+				DEVELOPMENT_TEAM = 8BUR3H37HV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ElSierd/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -427,30 +416,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		885EC095263C03F900585A09 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.11.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		885EC096263C03F900585A09 /* FirebaseStorage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 885EC095263C03F900585A09 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseStorage;
-		};
-		885EC098263C03F900585A09 /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 885EC095263C03F900585A09 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		8812BFF52660E535004C261E /* ElSierdModel.xcdatamodeld */ = {

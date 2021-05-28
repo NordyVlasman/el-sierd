@@ -13,10 +13,10 @@ struct HomeView: View {
             Button(action:{}) {
                 Text("Soundboard")
                     .padding(10)
-                    .frame(minWidth: .infinity)
                     .frame(height: 100)
-                    .cornerRadius(10)
             }
+            .frame(maxWidth: .infinity)
+            .background(Color.gray.opacity(0.5))
 
             
             HStack(){

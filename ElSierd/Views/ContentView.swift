@@ -6,8 +6,6 @@
 //
 
 import SwiftUI
-import AVFoundation
-import MediaPlayer
 
 struct ContentView: View {
     
