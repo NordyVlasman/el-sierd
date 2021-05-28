@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8812BFF22660DC8B004C261E /* SoundboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812BFF12660DC8B004C261E /* SoundboardView.swift */; };
+		8812BFF42660DC95004C261E /* AddSoundboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812BFF32660DC95004C261E /* AddSoundboardView.swift */; };
 		885EC097263C03F900585A09 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 885EC096263C03F900585A09 /* FirebaseStorage */; };
 		885EC099263C03F900585A09 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 885EC098263C03F900585A09 /* FirebaseFirestore */; };
 		885EC09F263C046800585A09 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885EC09E263C046800585A09 /* StorageManager.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8812BFF12660DC8B004C261E /* SoundboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardView.swift; sourceTree = "<group>"; };
+		8812BFF32660DC95004C261E /* AddSoundboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSoundboardView.swift; sourceTree = "<group>"; };
 		885EC09E263C046800585A09 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		885EC0A2263C1E4D00585A09 /* AudioPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPicker.swift; sourceTree = "<group>"; };
 		88AEF07B263C23C30041A8D8 /* 20190113_5c3bafc9aec369039cdd1523.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20190113_5c3bafc9aec369039cdd1523.m4a; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				88FC9D2F262045D300286FEC /* ContentView.swift */,
+				8812BFF12660DC8B004C261E /* SoundboardView.swift */,
+				8812BFF32660DC95004C261E /* AddSoundboardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -210,9 +216,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8812BFF42660DC95004C261E /* AddSoundboardView.swift in Sources */,
 				88FC9D422620463400286FEC /* AppState.swift in Sources */,
 				88FC9D30262045D300286FEC /* ContentView.swift in Sources */,
 				88FC9D2E262045D300286FEC /* ElSierdApp.swift in Sources */,
+				8812BFF22660DC8B004C261E /* SoundboardView.swift in Sources */,
 				885EC09F263C046800585A09 /* StorageManager.swift in Sources */,
 				885EC0A3263C1E4D00585A09 /* AudioPicker.swift in Sources */,
 			);
