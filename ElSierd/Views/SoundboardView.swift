@@ -12,7 +12,7 @@ struct SoundboardView: View {
         NavigationView {
             VStack {
                 Button(action: {
-                    playSound(key: "20190113_5c3bafc9aec369039cdd1523")
+                    playSound(key: "theo-motor")
                 }, label: {
                     Text("Theo")
                 })

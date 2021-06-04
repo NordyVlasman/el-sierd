@@ -14,8 +14,12 @@ struct PersistanceController {
         let result = PersistanceController(inMemory: true)
         let viewContext = result.container.viewContext
         
-        let quote = Quotes(context: viewContext)
-        quote.quote = "Coke,dat spel je c-o-k-e . Loopt ook langs het lijntje"
+        let audio = AudioEntity(context: viewContext)
+        audio.title = "Theo, zet de motor maar aan"
+        audio.audioLocation = "theo-motor.m4a"
+        audio.desc = "brrrrrrrrrrrr 🦼"
+        audio.image = "theo"
+        
         do {
             try viewContext.save()
         } catch {
