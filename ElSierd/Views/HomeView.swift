@@ -9,36 +9,46 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        VStack  (alignment: .center, content: {
-            Button(action:{}) {
-                Text("Soundboard")
-                    .padding(10)
-                    .frame(height: 100)
-            }
-            .frame(maxWidth: .infinity)
-            .background(Color.gray.opacity(0.5))
+        NavigationView {
+            VStack  (alignment: .center, content: {
+                NavigationLink(
+                    destination: AudiofileList(),
+                    label: {
+                        Text("Soundboard")
+                            .padding(10)
+                    })
+                .frame(height: 100)
+                .frame(maxWidth: .infinity)
+                .background(Color.gray.opacity(0.2))
+                .cornerRadius(10)
+                .padding(.horizontal)
 
-            
-            HStack(){
-                Button(action:{}) {
-                    Text("Wachtword generator")
-                        .padding(10)
-                        .frame(height: 50)
-                        .cornerRadius(10)
-                }
                 
-                Button(action:{}) {
-                    Text("Random woord generator")
-                        .padding(10)
-                        .frame(height: 50)
-                }
-            }
-            
+                HStack(){
+                    Button(action:{}) {
+                        Text("Wachtword generator")
+                            .padding(10)
+                            .frame(height: 50)
+                    }
+                    .frame(maxWidth: .infinity)
+                    .background(Color.gray.opacity(0.2))
+                    .cornerRadius(10)
                     
-
-            
-           
-        })
+                    Button(action:{}) {
+                        Text("Woord generator")
+                            .padding(10)
+                            .frame(height: 50)
+                    }
+                    .frame(maxWidth: .infinity)
+                    .background(Color.gray.opacity(0.2))
+                    .cornerRadius(10)
+                }
+                .padding(.horizontal)
+                Spacer()
+            })
+            .navigationTitle("SierddeBoss")
+        }
+        
     }
 }
 
