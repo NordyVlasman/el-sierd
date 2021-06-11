@@ -12,16 +12,23 @@
 		8812BFF72660E535004C261E /* ElSierdModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8812BFF52660E535004C261E /* ElSierdModel.xcdatamodeld */; };
 		885EC0A3263C1E4D00585A09 /* AudioPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885EC0A2263C1E4D00585A09 /* AudioPicker.swift */; };
 		887D7DE82660F5A100C87F0D /* PersistanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887D7DE72660F5A100C87F0D /* PersistanceController.swift */; };
-		888C3AB4263C2F3A0034FA71 /* 20190113_5c3bafc9aec369039cdd1523.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 88AEF07B263C23C30041A8D8 /* 20190113_5c3bafc9aec369039cdd1523.m4a */; };
+		888C3AB4263C2F3A0034FA71 /* theo-motor.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 88AEF07B263C23C30041A8D8 /* theo-motor.m4a */; };
+		88F9A2E1266A470D0028D6DC /* AudioEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F9A2DF266A470D0028D6DC /* AudioEntity+CoreDataClass.swift */; };
+		88F9A2E2266A470D0028D6DC /* AudioEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F9A2E0266A470D0028D6DC /* AudioEntity+CoreDataProperties.swift */; };
+		88F9A2E5266A59BA0028D6DC /* AudiofileList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F9A2E4266A59BA0028D6DC /* AudiofileList.swift */; };
 		88FC9D2E262045D300286FEC /* ElSierdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC9D2D262045D300286FEC /* ElSierdApp.swift */; };
 		88FC9D30262045D300286FEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC9D2F262045D300286FEC /* ContentView.swift */; };
 		88FC9D32262045D500286FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FC9D31262045D500286FEC /* Assets.xcassets */; };
 		88FC9D35262045D500286FEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FC9D34262045D500286FEC /* Preview Assets.xcassets */; };
 		88FC9D422620463400286FEC /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC9D412620463400286FEC /* AppState.swift */; };
 		E08C0C462660E4F2001B3D2E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08C0C452660E4F2001B3D2E /* HomeView.swift */; };
+<<<<<<< HEAD
 		E094C6DD267362E300446731 /* GeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094C6DC267362E300446731 /* GeneratorView.swift */; };
 		E0A00E02266A45B500C28D68 /* elpistolero.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E0A00E01266A45B400C28D68 /* elpistolero.jpeg */; };
 		E0B2076C2660F5D100F3C3AE /* AudiofileList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B2076B2660F5D100F3C3AE /* AudiofileList.swift */; };
+=======
+		E0B2076C2660F5D100F3C3AE /* AudiofileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B2076B2660F5D100F3C3AE /* AudiofileRow.swift */; };
+>>>>>>> ea38f12a0beb9cb7493d2c9f207d532515dc3e77
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +37,10 @@
 		8812BFF62660E535004C261E /* ElSierdModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ElSierdModel.xcdatamodel; sourceTree = "<group>"; };
 		885EC0A2263C1E4D00585A09 /* AudioPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPicker.swift; sourceTree = "<group>"; };
 		887D7DE72660F5A100C87F0D /* PersistanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceController.swift; sourceTree = "<group>"; };
-		88AEF07B263C23C30041A8D8 /* 20190113_5c3bafc9aec369039cdd1523.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20190113_5c3bafc9aec369039cdd1523.m4a; sourceTree = "<group>"; };
+		88AEF07B263C23C30041A8D8 /* theo-motor.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "theo-motor.m4a"; sourceTree = "<group>"; };
+		88F9A2DF266A470D0028D6DC /* AudioEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AudioEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		88F9A2E0266A470D0028D6DC /* AudioEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AudioEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		88F9A2E4266A59BA0028D6DC /* AudiofileList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudiofileList.swift; sourceTree = "<group>"; };
 		88FC9D2A262045D300286FEC /* ElSierd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElSierd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88FC9D2D262045D300286FEC /* ElSierdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElSierdApp.swift; sourceTree = "<group>"; };
 		88FC9D2F262045D300286FEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,9 +49,13 @@
 		88FC9D36262045D500286FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88FC9D412620463400286FEC /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		E08C0C452660E4F2001B3D2E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		E094C6DC267362E300446731 /* GeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorView.swift; sourceTree = "<group>"; };
 		E0A00E01266A45B400C28D68 /* elpistolero.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elpistolero.jpeg; sourceTree = "<group>"; };
 		E0B2076B2660F5D100F3C3AE /* AudiofileList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiofileList.swift; sourceTree = "<group>"; };
+=======
+		E0B2076B2660F5D100F3C3AE /* AudiofileRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiofileRow.swift; sourceTree = "<group>"; };
+>>>>>>> ea38f12a0beb9cb7493d2c9f207d532515dc3e77
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +83,14 @@
 				887D7DE72660F5A100C87F0D /* PersistanceController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		88F9A2E3266A4D440028D6DC /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				88AEF07B263C23C30041A8D8 /* theo-motor.m4a */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 		88FC9D21262045D300286FEC = {
@@ -116,7 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				E08C0C452660E4F2001B3D2E /* HomeView.swift */,
-				E0B2076B2660F5D100F3C3AE /* AudiofileList.swift */,
+				E0B2076B2660F5D100F3C3AE /* AudiofileRow.swift */,
+				88F9A2E4266A59BA0028D6DC /* AudiofileList.swift */,
 				88FC9D2F262045D300286FEC /* ContentView.swift */,
 				8812BFF12660DC8B004C261E /* SoundboardView.swift */,
 				8812BFF32660DC95004C261E /* AddSoundboardView.swift */,
@@ -128,6 +151,8 @@
 		88FC9D3E262045E500286FEC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				88F9A2DF266A470D0028D6DC /* AudioEntity+CoreDataClass.swift */,
+				88F9A2E0266A470D0028D6DC /* AudioEntity+CoreDataProperties.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -143,8 +168,7 @@
 		88FC9D45262046F600286FEC /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				E0A00E01266A45B400C28D68 /* elpistolero.jpeg */,
-				88AEF07B263C23C30041A8D8 /* 20190113_5c3bafc9aec369039cdd1523.m4a */,
+				88F9A2E3266A4D440028D6DC /* Audio */,
 				88FC9D31262045D500286FEC /* Assets.xcassets */,
 			);
 			path = Assets;
@@ -212,8 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88FC9D35262045D500286FEC /* Preview Assets.xcassets in Resources */,
-				888C3AB4263C2F3A0034FA71 /* 20190113_5c3bafc9aec369039cdd1523.m4a in Resources */,
-				E0A00E02266A45B500C28D68 /* elpistolero.jpeg in Resources */,
+				888C3AB4263C2F3A0034FA71 /* theo-motor.m4a in Resources */,
 				88FC9D32262045D500286FEC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,11 +252,14 @@
 				88FC9D422620463400286FEC /* AppState.swift in Sources */,
 				E094C6DD267362E300446731 /* GeneratorView.swift in Sources */,
 				887D7DE82660F5A100C87F0D /* PersistanceController.swift in Sources */,
+				88F9A2E5266A59BA0028D6DC /* AudiofileList.swift in Sources */,
 				8812BFF72660E535004C261E /* ElSierdModel.xcdatamodeld in Sources */,
+				88F9A2E1266A470D0028D6DC /* AudioEntity+CoreDataClass.swift in Sources */,
 				88FC9D30262045D300286FEC /* ContentView.swift in Sources */,
 				88FC9D2E262045D300286FEC /* ElSierdApp.swift in Sources */,
 				8812BFF22660DC8B004C261E /* SoundboardView.swift in Sources */,
-				E0B2076C2660F5D100F3C3AE /* AudiofileList.swift in Sources */,
+				E0B2076C2660F5D100F3C3AE /* AudiofileRow.swift in Sources */,
+				88F9A2E2266A470D0028D6DC /* AudioEntity+CoreDataProperties.swift in Sources */,
 				E08C0C462660E4F2001B3D2E /* HomeView.swift in Sources */,
 				885EC0A3263C1E4D00585A09 /* AudioPicker.swift in Sources */,
 			);

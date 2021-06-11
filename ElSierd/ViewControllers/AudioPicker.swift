@@ -13,7 +13,6 @@ var player: AVAudioPlayer!
 
 func playSound(key: String) {
     let url = Bundle.main.url(forResource: key, withExtension: "m4a")
-    
     guard url != nil else {
         return
     }
@@ -24,14 +23,4 @@ func playSound(key: String) {
     } catch {
         print("Error")
     }
-//    let url = Bundle.main.url(for)
 }
-//
-//struct AudioPicker: UIViewControllerRepresentable {
-//    @Binding var show: Bool
-//    @Binding var isLoading: Bool
-//
-//    func makeUIViewController(context: Context) -> some UIDocumentPickerViewController {
-////        let picker = UIDocumentPickerViewController(documentTypes: [String()], in: <#T##UIDocumentPickerMode#>)
-//    }
-//}
