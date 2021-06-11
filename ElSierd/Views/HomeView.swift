@@ -26,7 +26,7 @@ struct HomeView: View {
                 
                 HStack(){
                     Button(action:{}) {
-                        Text("Wachtword generator")
+                        Text("Wachtwoord generator")
                             .padding(10)
                             .frame(height: 50)
                     }
@@ -34,14 +34,15 @@ struct HomeView: View {
                     .background(Color.gray.opacity(0.2))
                     .cornerRadius(10)
                     
-                    Button(action:{}) {
-                        Text("Woord generator")
-                            .padding(10)
-                            .frame(height: 50)
-                    }
-                    .frame(maxWidth: .infinity)
-                    .background(Color.gray.opacity(0.2))
-                    .cornerRadius(10)
+                    NavigationLink(
+                        destination: GeneratorView(),
+                        label: {
+                            Text("Woord generator")
+                        })
+                        .frame(height:50)
+                        .frame(maxWidth: .infinity)
+                        .background(Color.gray.opacity(0.2))
+                        .cornerRadius(10)
                 }
                 .padding(.horizontal)
                 Spacer()
@@ -57,3 +58,4 @@ struct HomeView_Previews: PreviewProvider {
         HomeView()
     }
 }
+

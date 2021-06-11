@@ -29,7 +29,6 @@ struct AudiofileList: View {
                     
                     Text("0:06")
                         .font(.caption)
-                    
                 }
             }
             
