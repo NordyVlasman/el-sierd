@@ -22,13 +22,7 @@
 		88FC9D35262045D500286FEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FC9D34262045D500286FEC /* Preview Assets.xcassets */; };
 		88FC9D422620463400286FEC /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC9D412620463400286FEC /* AppState.swift */; };
 		E08C0C462660E4F2001B3D2E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08C0C452660E4F2001B3D2E /* HomeView.swift */; };
-<<<<<<< HEAD
-		E094C6DD267362E300446731 /* GeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094C6DC267362E300446731 /* GeneratorView.swift */; };
-		E0A00E02266A45B500C28D68 /* elpistolero.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E0A00E01266A45B400C28D68 /* elpistolero.jpeg */; };
-		E0B2076C2660F5D100F3C3AE /* AudiofileList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B2076B2660F5D100F3C3AE /* AudiofileList.swift */; };
-=======
 		E0B2076C2660F5D100F3C3AE /* AudiofileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B2076B2660F5D100F3C3AE /* AudiofileRow.swift */; };
->>>>>>> ea38f12a0beb9cb7493d2c9f207d532515dc3e77
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,13 +43,7 @@
 		88FC9D36262045D500286FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88FC9D412620463400286FEC /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		E08C0C452660E4F2001B3D2E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
-		E094C6DC267362E300446731 /* GeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorView.swift; sourceTree = "<group>"; };
-		E0A00E01266A45B400C28D68 /* elpistolero.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elpistolero.jpeg; sourceTree = "<group>"; };
-		E0B2076B2660F5D100F3C3AE /* AudiofileList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiofileList.swift; sourceTree = "<group>"; };
-=======
 		E0B2076B2660F5D100F3C3AE /* AudiofileRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiofileRow.swift; sourceTree = "<group>"; };
->>>>>>> ea38f12a0beb9cb7493d2c9f207d532515dc3e77
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
