@@ -10,7 +10,9 @@
 		8812BFF22660DC8B004C261E /* SoundboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812BFF12660DC8B004C261E /* SoundboardView.swift */; };
 		8812BFF42660DC95004C261E /* AddSoundboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812BFF32660DC95004C261E /* AddSoundboardView.swift */; };
 		8812BFF72660E535004C261E /* ElSierdModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8812BFF52660E535004C261E /* ElSierdModel.xcdatamodeld */; };
+		884FD8C52677CA6000552348 /* GeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884FD8C42677CA6000552348 /* GeneratorView.swift */; };
 		885EC0A3263C1E4D00585A09 /* AudioPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885EC0A2263C1E4D00585A09 /* AudioPicker.swift */; };
+		887C3EA2268B0E990054686A /* PasswordGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887C3EA1268B0E990054686A /* PasswordGeneratorView.swift */; };
 		887D7DE82660F5A100C87F0D /* PersistanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887D7DE72660F5A100C87F0D /* PersistanceController.swift */; };
 		888C3AB4263C2F3A0034FA71 /* theo-motor.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 88AEF07B263C23C30041A8D8 /* theo-motor.m4a */; };
 		88F9A2E1266A470D0028D6DC /* AudioEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F9A2DF266A470D0028D6DC /* AudioEntity+CoreDataClass.swift */; };
@@ -29,7 +31,9 @@
 		8812BFF12660DC8B004C261E /* SoundboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardView.swift; sourceTree = "<group>"; };
 		8812BFF32660DC95004C261E /* AddSoundboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSoundboardView.swift; sourceTree = "<group>"; };
 		8812BFF62660E535004C261E /* ElSierdModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ElSierdModel.xcdatamodel; sourceTree = "<group>"; };
+		884FD8C42677CA6000552348 /* GeneratorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratorView.swift; sourceTree = "<group>"; };
 		885EC0A2263C1E4D00585A09 /* AudioPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPicker.swift; sourceTree = "<group>"; };
+		887C3EA1268B0E990054686A /* PasswordGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGeneratorView.swift; sourceTree = "<group>"; };
 		887D7DE72660F5A100C87F0D /* PersistanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceController.swift; sourceTree = "<group>"; };
 		88AEF07B263C23C30041A8D8 /* theo-motor.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "theo-motor.m4a"; sourceTree = "<group>"; };
 		88F9A2DF266A470D0028D6DC /* AudioEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AudioEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -130,8 +134,9 @@
 				88F9A2E4266A59BA0028D6DC /* AudiofileList.swift */,
 				88FC9D2F262045D300286FEC /* ContentView.swift */,
 				8812BFF12660DC8B004C261E /* SoundboardView.swift */,
+				884FD8C42677CA6000552348 /* GeneratorView.swift */,
 				8812BFF32660DC95004C261E /* AddSoundboardView.swift */,
-				E094C6DC267362E300446731 /* GeneratorView.swift */,
+				887C3EA1268B0E990054686A /* PasswordGeneratorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -236,11 +241,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				884FD8C52677CA6000552348 /* GeneratorView.swift in Sources */,
 				8812BFF42660DC95004C261E /* AddSoundboardView.swift in Sources */,
 				88FC9D422620463400286FEC /* AppState.swift in Sources */,
-				E094C6DD267362E300446731 /* GeneratorView.swift in Sources */,
 				887D7DE82660F5A100C87F0D /* PersistanceController.swift in Sources */,
 				88F9A2E5266A59BA0028D6DC /* AudiofileList.swift in Sources */,
+				887C3EA2268B0E990054686A /* PasswordGeneratorView.swift in Sources */,
 				8812BFF72660E535004C261E /* ElSierdModel.xcdatamodeld in Sources */,
 				88F9A2E1266A470D0028D6DC /* AudioEntity+CoreDataClass.swift in Sources */,
 				88FC9D30262045D300286FEC /* ContentView.swift in Sources */,

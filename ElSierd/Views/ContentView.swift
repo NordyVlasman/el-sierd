@@ -17,10 +17,10 @@ struct ContentView: View {
                 .tabItem {
                     Text("Home")
                 }.tag(0)
-            AddSoundboardView()
-                .tabItem {
-                    Text("Toevoegen")
-                }.tag(1)
+//            AddSoundboardView()
+//                .tabItem {
+//                    Text("Toevoegen")
+//                }.tag(1)
         }
     }
 }

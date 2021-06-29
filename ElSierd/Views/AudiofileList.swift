@@ -17,15 +17,15 @@ struct AudiofileList: View {
                     .shadow(radius: 10)
                 
                 VStack(alignment: .leading) {
-                    Text("El pistelero")
+                    Text("Zet de motor maar aan")
                         .font(.title2)
                     
-                    Text("Luis Suarez")
+                    Text("Chrstian Tello.")
                         .font(.caption)
                 }
                 Spacer()
                 
-                Text("0:06")
+                Text("0:09")
                     .font(.caption)
             }
             .onTapGesture {

@@ -25,11 +25,11 @@ struct HomeView: View {
                 
                 
                 HStack(){
-                    Button(action:{}) {
-                        Text("Wachtwoord generator")
+                    NavigationLink(destination: PasswordGeneratorView(), label: {
+                        Text("Wachtwoord maken")
                             .padding(10)
                             .frame(height: 50)
-                    }
+                    })
                     .frame(maxWidth: .infinity)
                     .background(Color.gray.opacity(0.2))
                     .cornerRadius(10)
